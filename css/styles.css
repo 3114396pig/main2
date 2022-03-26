@@ -1,0 +1,135 @@
+body {
+    background-color: #f0f0f2;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.title {
+    width: 90%;
+    margin: 10px auto;
+    padding: 0.4% 1% 0.2% 1%;
+    background-color: #fdfdff;
+    border-radius: 0.5em;
+    box-shadow: 12px 12px 2px 1px rgba(150, 171, 173, 0.2);
+}
+
+.second_title {
+    text-align: right;
+    margin: 0.5% 3% 3% 3%;
+}
+
+.first_title {
+    text-align: center;
+    margin: 2% 3% 0.5% 3%;
+}
+
+a:link, a:visited {
+    color: #38488f;
+    text-decoration: none;
+}
+
+.writer {
+    list-style-type: none;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 1px;
+    font-size: 5px;
+}
+
+
+  section {
+    display: flex;
+  }
+
+
+  .article {
+    flex: 10 90%;
+    background-color: aqua;
+    flex-flow: column;
+    display: flex;
+    padding: 5% 5% 5% 5%;
+    margin: 5% 3% 5% 4%;
+    background-color: #fdfdff;
+    border-radius: 0.5em;
+    box-shadow: 12px 12px 2px 1px rgba(150, 171, 173, 0.2);
+  }
+
+  .article2 {
+    flex: 10 10%;
+    background-color: aqua;
+    flex-flow: column;
+    display: flex;
+    padding: 5% 5% 5% 5%;
+    margin: 5% 4% 5% 2%;
+    background-color: #fdfdff;
+    border-radius: 0.5em;
+    box-shadow: 12px 12px 2px 1px rgba(150, 171, 173, 0.2);
+  }
+
+  .button {
+    flex: 1 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  button {
+    flex: 1 auto;
+    margin: 5px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .allbox {
+    margin: 5% 4% 5% 4%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+}
+
+.Welcome {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.Welcome1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.wl2 {
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.box1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-color: #fdfdff;
+    border-radius: 0.5em;
+    padding: 1% 3% 1% 3%;
+    box-shadow: 12px 12px 2px 1px rgba(150, 171, 173, 0.2);
+}
+
+.box2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin: 0% 0% 2% 8%;
+    background-color: #fdfdff;
+    border-radius: 0.5em;
+    padding: 5% 5% 5% 5%;
+    box-shadow: 12px 12px 2px 1px rgba(150, 171, 173, 0.2);
+}
+
+.box3 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    margin: 2% 0% 0% 8%;
+    background-color: #fdfdff;
+    border-radius: 0.5em;
+    padding: 5% 5% 5% 5%;
+    box-shadow: 12px 12px 2px 1px rgba(150, 171, 173, 0.2);
+}
